@@ -40,10 +40,10 @@ docker compose down
 
 #### 2. Trạng thái các service sau khi chạy Compose
 > Thể hiện kết quả lệnh `docker compose ps` (các container `db`, `backend`, `frontend` đều ở trạng thái `running` / `healthy`):
-![image-2.png](image-2.png)
+![image-2.png](docs/images/image-2.png)
 
 #### 3. Kết quả gọi /actuator/health
 > Thể hiện kết quả truy vấn HTTP GET tới `/actuator/health` trả về HTTP 200 và `{"status":"UP"}`:
-![image-3.png](image-3.png)
+![image-3.png](docs/images/image-3.png)
 
 ---
